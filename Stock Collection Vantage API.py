@@ -1,6 +1,7 @@
 from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
 
+
 def fetch_hourly_stock_data(api_key, symbol):
     """
     Fetch hourly stock data for a given symbol using the Alpha Vantage API.
